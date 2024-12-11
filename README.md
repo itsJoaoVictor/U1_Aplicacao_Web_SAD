@@ -3,6 +3,8 @@
 ## Sobre o Projeto
 O objetivo deste trabalho é criar um **dashboard interativo** utilizando o framework **Streamlit** para expor informações do dataset **Produtos de Inovação UFS**. A aplicação permite a visualização de dados através de **tabelas**, **gráficos** e/ou **mapas**, dando liberdade às equipes para decidir como apresentar as informações de maneira mais eficaz.
 
+Link DataSet: https://dados.ufs.br/dataset/produtos-de-inovacao
+
 Este projeto faz parte da disciplina **Sistemas de Apoio à Decisão (SAD)**.
 
 ---
