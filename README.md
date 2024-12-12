@@ -24,7 +24,7 @@ Este projeto faz parte da disciplina **Sistemas de Apoio à Decisão (SAD)**.
 
 - **Sérgio Santana dos Santos**  
   Matrícula: 202000133379  
-  GitHub: 
+  GitHub: [@sergioamado](https://github.com/sergioamado)
 
 ---
 
