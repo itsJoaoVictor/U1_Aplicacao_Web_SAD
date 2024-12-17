@@ -80,7 +80,7 @@ fig_unidade_tipo = px.histogram(
     x="centro/unidade", 
     color="tipo_pi", 
     title="Invenções por Unidade e Tipo de Propriedade Intelectual",
-    labels={"x": "Centro/Unidade", "color": "Tipo de PI"},
+    labels={"x": "Centro/Unidad", "y": "Quantidade", "color": "Tipo de PI"},
     barmode="group",
     color_discrete_sequence=px.colors.sequential.Viridis
 )
