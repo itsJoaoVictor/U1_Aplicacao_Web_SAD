@@ -80,11 +80,14 @@ fig_unidade_tipo = px.histogram(
     x="centro/unidade", 
     color="tipo_pi", 
     title="Invenções por Unidade e Tipo de Propriedade Intelectual",
-    labels={"x": "Centro/Unidade", "y": "Quantidade", "color": "Tipo de PI"},
+    labels={"x": "Centro/Unidade", "color": "Tipo de PI"},  
     barmode="group",
     color_discrete_sequence=px.colors.sequential.Viridis
 )
-fig_unidade_tipo.update_layout(xaxis={'categoryorder': 'total ascending'})
+fig_unidade_tipo.update_layout(
+    xaxis={'categoryorder': 'total ascending'},
+    yaxis_title="Quantidade"
+)
 st.plotly_chart(fig_unidade_tipo, use_container_width=True)
 
 # Filtros interativos
